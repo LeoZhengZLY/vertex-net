@@ -13,9 +13,9 @@ class Hovercraft:
         self.max_thdot = np.pi
         self.dt = .05
         self.g = 10.
-        self.safe_xu = 10.  # initial x region [0, 10]
+        self.safe_xu = 10. 
         self.safe_xl = 0.
-        self.safe_yu = 10.  # initial y region [0, 10]
+        self.safe_yu = 10.  
         self.safe_yl = 0.
         self.safe_th = safe_th  # safe theta region [-0.25, 0.25]
         self.t = 0  # clock time
